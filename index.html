@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The wine</title>
+    <style>
+      h1 {
+        text-align: center;
+        color: #e1d5d2;
+        font-size: 40px;
+        margin: 0 auto;
+        padding: 20px 0;
+        background: #4b4a5a;
+        border-radius: 5px 5px 0 0;
+      }
+
+      h2 {
+        text-align: center;
+        color: #4b4a5a;
+        font-size: 25px;
+        margin: 0 0 10px 0;
+        background: #e79a58;
+        border-radius: 0 0 5px 5px;
+        padding: 20px 0;
+      }
+
+      img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+        background: #e79a58;
+        border-radius: 5px;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+      }
+      li {
+        display: inline;
+        padding: 10px;
+        margin: 0 10px;
+        font-weight: bold;
+        transition: all 200ms ease-in-out;
+      }
+
+      li:hover {
+        background-color: #ebad77;
+        border-radius: 5px;
+        box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.3);
+      }
+
+      .mainText {
+        line-height: 1.5;
+        text-align: justify;
+        padding: 0 20px 10px 20px;
+      }
+
+      .port-types {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+      }
+
+      .red-wine,
+      .white-wine {
+        text-decoration: none;
+        color: black;
+        transition: all 200ms ease-in-out;
+      }
+
+      .red-wine:hover {
+        color: rgb(191, 37, 37);
+        text-decoration: underline;
+      }
+
+      .white-wine:hover {
+        color: white;
+        text-decoration: underline;
+      }
+
+      .note {
+        text-align: center;
+        background: #e79a58;
+        padding: 20px 0;
+        margin: 40px 70px;
+        border-radius: 30px;
+        line-height: 1.5;
+      }
+
+      .learnMore {
+        display: block;
+        font-size: 13px;
+        color: #1106b5;
+        text-decoration: none;
+      }
+
+      .learnMore:hover {
+        text-decoration: underline;
+      }
+
+      .buyButton {
+        display: block;
+        margin: 40px auto 40px auto;
+        padding: 20px 40px 10px 40px;
+        background: #a55540;
+        font-size: 15px;
+        color: #e1d5d2;
+        border: none;
+        border-radius: 30px;
+        transition: all 200ms ease-in-out;
+        box-shadow: 3px 3px 20px rgb(0, 0, 0, 0.3);
+      }
+
+      .buyButton:hover {
+        color: black;
+        background: none;
+        border: 1px solid #a55540;
+        cursor: pointer;
+      }
+
+      .made-by {
+        text-align: center;
+        font-size: 13px;
+        color: #4b4a5a;
+        padding-bottom: 10px;
+      }
+
+      .container {
+        margin: 0 auto;
+        background: #e1d5d2;
+        max-width: 700px;
+        font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+        border-radius: 5px;
+        box-shadow: 3px 3px 20px rgb(0, 0, 0, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1><em>The</em> wine</h1>
+
+      <h2>Port wine - the heart of Portugal ❤</h2>
+
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/036/423/original/PortWine.jpg?1654465137"
+        alt="Wine in glass"
+      />
+
+      <p class="mainText">
+        <strong>
+          Have you ever heard about "Port"? What does Port Wine Taste
+          Like?</strong
+        >
+        <br />
+        Port is a sweet wine with flavors of raspberry, blackberry, caramel,
+        cinnamon, and chocolate sauce. Sound delicious? It is! There are several
+        styles of port, but the 2 major styles of Port include a red Port with
+        more berry and chocolate flavors (and slightly less sweetness), and a
+        tawny-colored Port with more caramel and nut flavors (and more
+        sweetness). Older, fine Tawny Ports have an even wider array of subtle
+        flavors including graphite, green peppercorn, hazelnut, almond,
+        butterscotch, and graham cracker. Look for wines aged for 30 or more
+        years for this level of complexity!
+      </p>
+      <div class="port-types">Port Types</div>
+
+      <ul>
+        <li>
+          <a
+            href="https://www.wine-searcher.com/regions-ruby+port"
+            target="_blank"
+            class="red-wine"
+          >
+            Ruby (Red) Port</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://www.wine-searcher.com/regions-tawny+port"
+            target="_blank"
+            class="red-wine"
+          >
+            Tawny Port
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.wine-searcher.com/regions-white+port"
+            target="_blank"
+            class="white-wine"
+          >
+            White Port
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.wine-searcher.com/regions-rose+port"
+            target="_blank"
+            class="red-wine"
+          >
+            Rosé Port
+          </a>
+        </li>
+      </ul>
+
+      <p class="note">
+        📌 Real Port Wine can only be made in Portugal 📌
+        <a
+          href="https://winefolly.com/deep-dive/what-is-port-wine/"
+          target="_blank"
+          class="learnMore"
+        >
+          Learn more 🍇</a
+        >
+      </p>
+
+      <button class="buyButton">Buy Port <br />🤝</button>
+      <hr />
+      <p class="made-by">Built by Jane_Mar</p>
+    </div>
+    <script>
+      function userInfo() {
+        let age = prompt("What is your age?");
+        let name = prompt("What is your name?");
+
+        if (age >= 18) {
+          alert("Hello " + name + "! We will call you soon🤗");
+        } else {
+          alert("Sorry, " + name + "😥 Waiting for you after 18😉");
+        }
+      }
+
+      let buy = document.querySelector(".buyButton");
+      buy.addEventListener("click", userInfo);
+    </script>
+  </body>
+</html>
