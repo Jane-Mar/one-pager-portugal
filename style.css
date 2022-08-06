@@ -1,0 +1,134 @@
+:root {
+  --primary-color: #4b4a5a;
+  --secondary-color: #e79a58;
+  --third-color: #e1d5d2;
+  --box-shadow: 3px 3px 20px rgb(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  color: var(--third-color);
+  font-size: 40px;
+  margin: 0;
+  padding: 20px 0;
+  background: var(--primary-color);
+  border-radius: 5px 5px 0 0;
+}
+
+h2 {
+  color: var(--primary-color);
+  font-size: 25px;
+  margin: 0 0 10px;
+  background: var(--secondary-color);
+  border-radius: 0 0 5px 5px;
+  padding: 20px 0;
+}
+
+img {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+section > h2 {
+  background: none;
+  color: black;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+li a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+li a:hover {
+  background-color: var(--secondary-color);
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  color: rgb(191, 37, 37);
+}
+
+footer p {
+  font-size: 13px;
+  color: var(--primary-color);
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.mainText {
+  line-height: 1.5;
+  text-align: justify;
+  padding: 0 20px 20px;
+}
+
+.whiteWine:hover {
+  color: white;
+}
+
+.note {
+  background: var(--secondary-color);
+  padding: 20px 0;
+  margin: 40px auto;
+  max-width: 75%;
+  border-radius: 30px;
+  line-height: 1.5;
+}
+
+.learnMore {
+  display: block;
+  font-size: 13px;
+  color: #1106b5;
+  text-decoration: none;
+}
+
+.buyButton {
+  margin-bottom: 40px;
+  padding: 20px 40px 10px;
+  background: #a55540;
+  font-size: 15px;
+  color: var(--third-color);
+  border: none;
+  border-radius: 30px;
+  transition: all 200ms ease-in-out;
+  box-shadow: var(--box-shadow);
+}
+
+.buyButton:hover {
+  color: black;
+  background: none;
+  border: 1px solid #a55540;
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  background: var(--third-color);
+  max-width: 50%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow);
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  .container {
+    max-width: 100%;
+  }
+  .note {
+    max-width: 90%;
+  }
+}
