@@ -63,7 +63,7 @@
               <a
                 href="https://www.wine-searcher.com/regions-white+port"
                 target="_blank"
-                class="white-wine"
+                class="whiteWine"
               >
                 White Port
               </a>
@@ -114,11 +114,9 @@
         let age = prompt("What is your age?");
         let name = prompt("What is your name?");
 
-        if (age >= 18) {
-          alert("Hello " + name + "! We will call you soon🤗");
-        } else {
-          alert("Sorry, " + name + "😥 Waiting for you after 18😉");
-        }
+        age >= 18
+          ? alert(`Hello, ${name}! We will call you soon🤗`)
+          : alert(`Sorry, ${name}. 😥 Waiting for you after 18😉`);
       }
 
       let buy = document.querySelector(".buyButton");
